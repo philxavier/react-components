@@ -1,10 +1,14 @@
 // TODO
 var GroceryList = () => (
   <ul>
-    <li>Milk</li>
-    <li>apple</li>
+      <Milk />
+      <Apple />
   </ul>
 );
+
+var Milk = () => <li>Milk</li>;
+var Apple = () => <li>Apple</li>;
+
 
 ReactDOM.render(<GroceryList/>, document.getElementById('app'));
 
